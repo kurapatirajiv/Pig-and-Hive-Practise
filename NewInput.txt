@@ -1,0 +1,12 @@
+id=artist:1
+last_name=Coppola
+first_name=Sofia
+year_of_birth=1971
+id=artist:2
+last_name=Dunst
+first_name=Kirsten
+year_of_birth=null
+id=artist:3
+last_name=Hitchcock
+first_name=Alfred
+year_of_birth=1899
