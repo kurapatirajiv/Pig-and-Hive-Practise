@@ -5,7 +5,7 @@ add jar /Users/Rajiv/files/HiveFilterUDF.jar;
 CREATE TEMPORARY FUNCTION validateNames as 'myUDF.FilterUDF';
 
 -- A boolean evaluate function did the magic
-select director.last_name,director.first_name from movies 
+select title,director.id,director.last_name,director.first_name,director.year_of_birth 
 where 
 validateNames(director.last_name,director.first_name);
 
